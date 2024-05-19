@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Navbar.Master.cs" Inherits="RAiso.Layout.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../Styles/Navbar.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Navbar" runat="server">
+
+        <div id="NavbarContainer">
+            <div class="left-section">
+                <asp:Image ID="RAisoLogo" runat="server" ImageUrl="../Assets/LogoNew.png" />
+                <asp:Button ID="Home" class="NavButton" runat="server" Text="Home" OnClick="Home_Click" />
+                <asp:Button ID="Transaction" class="NavButton" runat="server" Text="Transaction" OnClick="Transaction_Click" Visible="false"/>
+                <asp:Button ID="TransactionReport" class="NavButton" runat="server" Text="Transaction" OnClick="TransactionReport_Click" Visible="false"/>
+                <asp:Button ID="Cart" class="NavButton" runat="server" Text="Cart" OnClick="Cart_Click" Visible="false"/>
+            </div>
+            <div class="right-section">
+                <asp:Button ID="LogOut" class="NavButton AdjustHeight" runat="server" Text="Log Out" OnClick="LogOut_Click" Visible="false"/>
+                <asp:Button ID="Login" class="NavButton AdjustHeight" runat="server" Text="Login" OnClick="Login_Click" />
+                <asp:Button ID="Register" class="NavButton AdjustHeight" runat="server" Text="Register" OnClick="Register_Click" />
+                <asp:ImageButton ID="ProfileUpdate" runat="server" OnClick="ProfileUpdate_Click" ImageUrl="../Assets/ProfilePicture.jpg" Visible="false"/>
+                <asp:Button ID="ProfileUpdateText" class="NavButton AdjustHeight" runat="server" Text="Hello, User" OnClick="ProfileUpdateText_Click" Visible="false"/>
+            </div>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
