@@ -1,0 +1,122 @@
+﻿body {
+    background-image: url("../Assets/Image1Blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans';
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.parentContainer {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.whiteBG {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#RightContainer {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 90% 0%;
+    margin-bottom: -5px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.CenterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftContainer {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+}
+
+#LoginLbl {
+    margin-bottom: 15px;
+    font-weight: 1000;
+    font-size: 28px;
+}
+
+.NormalText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.TextBoxes {
+    padding-left:5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 5px;
+    border-width: 1px 1px 1px 1px;
+    border-color: grey;
+}
+
+.RememberMe {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Login {
+    margin-top: 10px;
+    width: 345px;
+    height: 34px;
+    font-size: 17px;
+    font-weight: 750;
+    border-radius: 5px;
+    border-width: 1px 1px 1px 1px;
+    background-color: #38709C;
+    color:white;
+}
+
+    .Login:hover {
+        background-color: #213E55;
+    }
+
+#RegisterLink {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #38709C;
+}
+
+    #RegisterLink:hover {
+        text-decoration: none;
+        color: #213E55;
+    }
+
+@media screen and (max-width:850px) {
+    #RightContainer {
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    .TextBoxes {
+        width: 250px;
+    }
+
+    .Login {
+        width: 255px;
+    }
+}

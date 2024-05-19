@@ -1,0 +1,102 @@
+﻿body {
+    font-family: 'Open Sans';
+}
+
+.wrap-text {
+    display: block;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.CenterBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container1180px {
+    width: 1100px;
+    height: fit-content;
+    display: flex;
+}
+
+.imgcontainer img{
+    width:700px;
+    height:auto;
+    border-radius:10px;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailcontainer{
+    padding:20px;
+}
+
+.StatName{
+    font-size:35px;
+    font-weight:700;
+}
+
+.StatPrice {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFC600;
+}
+
+.Descriptions {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.btncontainer{
+    margin-top:10px;
+    border:1px solid black;
+    border-radius:5px;
+    padding:10px;
+}
+
+.Utility1{
+    font-size:20px;
+    font-weight:700;
+}
+
+.QuantityBox{
+    margin-top:10px;
+    height:20px;
+    font-size:15px;
+}
+
+.cardbtn1 {
+    margin-top:10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #1C3549;
+    border: 0.1px solid;
+    border-radius: 3px;
+}
+
+    .cardbtn1:hover {
+        color: white;
+        border: none;
+        background-color: #1C3549;
+    }
+
+.cardbtn2 {
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C3549;
+    background-color: #FFC600;
+}
+
+    .cardbtn2:hover {
+        color: white;
+        background-color: #1C3549;
+    }

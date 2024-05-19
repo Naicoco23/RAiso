@@ -1,0 +1,227 @@
+﻿body {
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: center;
+}
+
+.SearchBar {
+    background-color: #1C3549;
+    width: 100vw;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-container, .right-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: fit-content;
+    padding:10px;
+    margin:10px;
+}
+
+.mid-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.SearchLbls {
+    width: 220px;
+    color:white;
+    font-weight:800;
+}
+
+.SearchInputs {
+    padding-left: 10px;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    border-width: 1px;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+}
+
+.SearchBtn {
+    background-color: #FFC600;
+    height: 39px;
+    border-radius: 0px 8px 8px 0px;
+    border-width: 1px;
+    font-size: 14px;
+    align-items:center;
+    justify-items:center;
+    width:80px;
+    font-weight:600;
+}
+
+.AddStationeryBtn {
+    background-color: #FFC600;
+    height: 39px;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 1px;
+    font-size: 14px;
+    align-items: center;
+    justify-items: center;
+    font-weight: 600;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/* carousel */
+.carouselContainer {
+    width: 1180px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    overflow: hidden;
+    width: 1180px;
+    height: 380px;
+    border-radius: 15px;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carouselbtn {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+    .carouselbtn.left {
+        left: 20px;
+    }
+
+    .carouselbtn.right {
+        right: 20px;
+    }
+
+.btnImg {
+    height: 50px;
+    width: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.image {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+}
+
+.track {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: 1s ease-in;
+    width:100%;
+    justify-content:center;
+}
+
+.CenterBox{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+}
+
+.container1180px{
+    width:1180px;
+    height:fit-content;
+    display:flex;
+}
+
+.card{
+    width:172px;
+    height:195px;
+    background-color:white;
+    border: 0.5px solid;
+    border-radius:10px;
+    overflow:hidden;
+    margin-right:10px;
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+}
+
+    .card:hover {
+        background-color: #ECECEC;
+    }
+
+.StatName {
+    margin: 5px;
+    margin-bottom:0px;
+    color: #1C3549;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.StatPrice {
+    margin-top:0px;
+    margin-left: 5px;
+    color: #FFA800;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card img {
+    height: 100px;
+    width: auto;
+}
+
+.cardbtn1 {
+    padding:5px;
+    font-size:15px;
+    font-weight:600;
+    background-color: white;
+    color: #1C3549;
+    border:0.1px solid;
+    border-radius:3px;
+}
+
+.cardbtn1:hover {
+    color:white;
+    border:none;
+    background-color: #1C3549;
+}
+
+.cart_purchase{
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.cardbtn2 {
+    padding:6px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1C3549;
+    background-color: #FFC600;
+}
+
+.cardbtn2:hover {
+    color: white;
+    background-color: #1C3549;
+}

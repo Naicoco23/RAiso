@@ -1,0 +1,88 @@
+﻿body {
+    background-image: url("../Assets/AddStationeryBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans';
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.parentContainer {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.whiteBG {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.CenterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftContainer {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
+.AddStatLbls {
+    margin-bottom: 15px;
+    font-weight: 1000;
+    font-size: 28px;
+}
+
+.NormalText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.TextBoxes {
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 5px;
+    border-width: 1px 1px 1px 1px;
+    border-color: grey;
+}
+
+.AddStat {
+    margin-top: 10px;
+    width: 345px;
+    height: 34px;
+    font-size: 17px;
+    font-weight: 750;
+    border-radius: 5px;
+    border-width: 1px 1px 1px 1px;
+    background-color: #38709C;
+    color: white;
+}
+
+    .AddStat:hover {
+        background-color: #213E55;
+    }
+
+@media screen and (max-width:850px) {
+    .TextBoxes {
+        width: 250px;
+    }
+
+    .AddStat {
+        width: 255px;
+    }
+}
