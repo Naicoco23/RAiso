@@ -40,6 +40,32 @@ namespace RAiso.View
                     Response.Redirect("~/View/Home.aspx");
                 }
             }
+
+            MsUser user = Session["User"] as MsUser;
+            if (user != null && user.UserRole.ToLower() == "admin")
+            {
+                AddCartBtn.Visible = false;
+                PurchaseBtn.Visible = false;
+                Quantity.Visible = false;
+                Utility1.Visible = false;
+                BtnContainer.Visible = false;
+            }
+            else if (user != null && user.UserRole.ToLower() == "user")
+            {
+                AddCartBtn.Visible = true;
+                PurchaseBtn.Visible = true;
+                Quantity.Visible = true;
+                Utility1.Visible = true;
+                BtnContainer.Visible = true;
+            }
+            else
+            {
+                AddCartBtn.Visible = false;
+                PurchaseBtn.Visible = false;
+                Quantity.Visible = false;
+                Utility1.Visible = false;
+                BtnContainer.Visible = false;
+            }
         }
 
         public void StatDetail(int ID)
@@ -56,6 +82,33 @@ namespace RAiso.View
         protected void AddCartBtn_Click(object sender, EventArgs e)
         {
 
+            MsUser user = Session["User"] as MsUser;
+            int userId = user.UserID;
+            int statId = -1;
+            int qty = Convert.ToInt32(Quantity.Text);
+
+            string stationeryID = Request.QueryString["stationeryID"];
+            if (!string.IsNullOrEmpty(stationeryID))
+            {
+                if (decimal.TryParse(stationeryID, out decimal IDTemp))
+                {
+                    statId = (int)Math.Round(IDTemp);
+                }
+            }
+            Response<RAiso.Models.Cart> cart = CartController.AddToCart(userId, statId, qty);
+            
+            if(cart.IsSuccess == false)
+            {
+                lblAlert.ForeColor = System.Drawing.Color.Red;
+                lblAlert.Text = cart.Message;
+                lblAlert.Visible = true;
+            }
+            else
+            {
+                lblAlert.ForeColor = System.Drawing.Color.Green;
+                lblAlert.Text = cart.Message;
+                lblAlert.Visible = true;
+            }
         }
 
         protected void PurchaseBtn_Click(object sender, EventArgs e)
