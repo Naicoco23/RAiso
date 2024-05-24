@@ -94,12 +94,14 @@
     <Content Include="Styles\Home.css" />
     <Content Include="Styles\Login.css" />
     <Content Include="Styles\Navbar.css" />
+    <Content Include="Styles\Profile.css" />
     <Content Include="Styles\Register.css" />
     <Content Include="Styles\StationeryDetails.css" />
     <Content Include="Styles\UpdateStationery.css" />
     <Content Include="View\AddStationery.aspx" />
     <Content Include="View\Home.aspx" />
     <Content Include="View\Login.aspx" />
+    <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
     <Content Include="View\StationeryDetails.aspx" />
     <Content Include="View\UpdateStationery.aspx" />
@@ -177,6 +179,13 @@
     </Compile>
     <Compile Include="View\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
