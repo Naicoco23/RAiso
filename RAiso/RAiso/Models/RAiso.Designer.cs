@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\Models\RAiso.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\PSD\RAiso\RAiso\Models\RAiso.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -84,13 +84,11 @@ namespace RAiso.Layout
 
         protected void ProfileUpdate_Click(object sender, ImageClickEventArgs e)
         {
-            
             Response.Redirect("~/View/Profile.aspx");
         }
 
         protected void ProfileUpdateText_Click(object sender, EventArgs e)
         {
-
             Response.Redirect("~/View/Profile.aspx");
         }
 
