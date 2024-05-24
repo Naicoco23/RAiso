@@ -67,7 +67,7 @@ namespace RAiso.Handler
             }
             else
             {
-                // Make user by default
+                
                 MsUserRepository.CreateMsUser(Id, UserName, UserGender, UserDOB, UserPhone, UserAddress, UserPassword, "User");
                 return new Response<MsUser>
                 {

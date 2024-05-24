@@ -91,21 +91,26 @@
     </Content>
     <Content Include="Script\Home.js" />
     <Content Include="Styles\AddStationery.css" />
+    <Content Include="Styles\Cart.css" />
     <Content Include="Styles\Home.css" />
     <Content Include="Styles\Login.css" />
     <Content Include="Styles\Navbar.css" />
     <Content Include="Styles\Register.css" />
     <Content Include="Styles\StationeryDetails.css" />
+    <Content Include="Styles\UpdateCart.css" />
     <Content Include="Styles\UpdateStationery.css" />
     <Content Include="View\AddStationery.aspx" />
+    <Content Include="View\Cart.aspx" />
     <Content Include="View\Home.aspx" />
     <Content Include="View\Login.aspx" />
     <Content Include="View\Register.aspx" />
     <Content Include="View\StationeryDetails.aspx" />
+    <Content Include="View\UpdateCart.aspx" />
     <Content Include="View\UpdateStationery.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CartController.cs" />
     <Compile Include="Controller\MsStationeryController.cs" />
     <Compile Include="Controller\MsUserController.cs" />
     <Compile Include="Factory\CartFactory.cs" />
@@ -113,6 +118,7 @@
     <Compile Include="Factory\MsUserFactory.cs" />
     <Compile Include="Factory\TransactionDetailFactory.cs" />
     <Compile Include="Factory\TransactionHeaderFactory.cs" />
+    <Compile Include="Handler\CartHandler.cs" />
     <Compile Include="Handler\MsStationeryHandler.cs" />
     <Compile Include="Handler\MsUserHandler.cs" />
     <Compile Include="Layout\Navbar.Master.cs">
@@ -154,6 +160,7 @@
     </Compile>
     <Compile Include="Modules\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CartRepository.cs" />
     <Compile Include="Repository\DatabaseSingleton.cs" />
     <Compile Include="Repository\MsStationeryRepository.cs" />
     <Compile Include="Repository\MsUserRepository.cs" />
@@ -163,6 +170,13 @@
     </Compile>
     <Compile Include="View\AddStationery.aspx.designer.cs">
       <DependentUpon>AddStationery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -191,6 +205,13 @@
     </Compile>
     <Compile Include="View\StationeryDetails.aspx.designer.cs">
       <DependentUpon>StationeryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\UpdateCart.aspx.cs">
+      <DependentUpon>UpdateCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\UpdateCart.aspx.designer.cs">
+      <DependentUpon>UpdateCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\UpdateStationery.aspx.cs">
       <DependentUpon>UpdateStationery.aspx</DependentUpon>

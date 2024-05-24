@@ -32,6 +32,7 @@ namespace RAiso.View
             Response<MsUser> response = MsUserController.LoginUser(Username, Pass);
             if(response.IsSuccess)
             {
+                
                 if (Rememberme)
                 {
                     HttpCookie cookie = new HttpCookie("UserCookie");
@@ -40,6 +41,7 @@ namespace RAiso.View
                     Response.Cookies.Add(cookie);
                 }
                 Session["User"] = response.Payload;
+                Session["UserId"] = response.Payload.UserID;
                 Response.Redirect("~/View/Home.aspx");
             }
             else
