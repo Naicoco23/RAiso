@@ -35,7 +35,7 @@ namespace RAiso.Repository
         }
 
         public static void UpdateMsUser(int UserID, String UserName, String UserGender, DateTime UserDOB,
-            String UserPhone, String UserAddress, String UserPassword, String UserRole)
+            String UserPhone, String UserAddress, String UserPassword)
         {
             MsUser user = DB.MsUsers.Find(UserID);
             user.UserID = UserID;
@@ -45,7 +45,6 @@ namespace RAiso.Repository
             user.UserPhone = UserPhone;
             user.UserAddress = UserAddress;
             user.UserPassword = UserPassword;
-            user.UserRole = UserRole;
             DB.SaveChanges();
         }
 

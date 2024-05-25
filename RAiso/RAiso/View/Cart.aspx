@@ -3,7 +3,6 @@
     <link href="../Styles/Cart.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>INI CART</h1>
     <div class="center-content">
 
         <asp:Repeater ID="reptCart" runat="server" OnItemCommand="reptCart_ItemCommand">
@@ -29,7 +28,7 @@
         </asp:Repeater>
         
         <div>
-            <asp:Button ID="btnPurchase" runat="server" Text="Chekcout" Visible="false" CssClass="btn-checkout" OnClick="btnPurchase_Click"/>
+            <asp:Button ID="btnPurchase" runat="server" Text="Checkout" Visible="false" CssClass="btn-checkout" OnClick="btnPurchase_Click"/>
 
         </div>
         <asp:Label ID="lblAlert" runat="server" Text="" Visible="false"></asp:Label>

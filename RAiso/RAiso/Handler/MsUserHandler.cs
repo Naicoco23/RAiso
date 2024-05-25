@@ -22,7 +22,7 @@ namespace RAiso.Handler
                     Payload = null
                 };
             }
-            else if(user.UserPassword.Equals(password) == false)
+            else if (user.UserPassword.Equals(password) == false)
             {
                 return new Response<MsUser>
                 {
@@ -49,14 +49,14 @@ namespace RAiso.Handler
             int Id;
             if (temp != null)
             {
-                Id = temp.UserID+1;
+                Id = temp.UserID + 1;
             }
             else
             {
                 Id = 1;
             }
             temp = MsUserRepository.GetMsUserByName(UserName);
-            if (temp!=null)
+            if (temp != null)
             {
                 return new Response<MsUser>
                 {
@@ -67,7 +67,7 @@ namespace RAiso.Handler
             }
             else
             {
-                
+
                 MsUserRepository.CreateMsUser(Id, UserName, UserGender, UserDOB, UserPhone, UserAddress, UserPassword, "User");
                 return new Response<MsUser>
                 {
@@ -81,7 +81,7 @@ namespace RAiso.Handler
         public static Response<MsUser> LogInWithCookie(String UserName)
         {
             MsUser user = MsUserRepository.GetMsUserByName(UserName);
-            if(user!=null)
+            if (user != null)
             {
                 return new Response<MsUser>
                 {
@@ -100,6 +100,47 @@ namespace RAiso.Handler
                 };
             }
 
+        }
+
+        public static Response<MsUser> UpdateUser(int UserId, String UserName, String UserGender, DateTime UserDOB,
+            String UserPhone, String UserAddress, String UserPassword)
+        {
+            MsUser temp = MsUserRepository.GetMsUserByName(UserName);
+            MsUser oldUser = MsUserRepository.GetMsUserById(UserId);
+            String oldName = oldUser.UserName;
+            if (temp != null)
+            {
+                if (temp.UserName == oldName)
+                {
+                    MsUserRepository.UpdateMsUser(UserId, UserName, UserGender, UserDOB, UserPhone, UserAddress, UserPassword);
+                    return new Response<MsUser>
+                    {
+                        IsSuccess = true,
+                        Message = "Account Updated!",
+                        Payload = null
+                    };
+                }
+                else
+                {
+                    return new Response<MsUser>
+                    {
+                        IsSuccess = false,
+                        Message = "Username taken!",
+                        Payload = null
+                    };
+                }
+            }
+            else
+            {
+
+                MsUserRepository.UpdateMsUser(UserId, UserName, UserGender, UserDOB, UserPhone, UserAddress, UserPassword);
+                return new Response<MsUser>
+                {
+                    IsSuccess = true,
+                    Message = "Account Updated!",
+                    Payload = null
+                };
+            }
         }
     }
 }

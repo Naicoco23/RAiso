@@ -1,0 +1,88 @@
+﻿body {
+    font-family: 'Open Sans';
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.profileContainer {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+}
+
+.pictureContainer {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.picture {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 4.5rem;
+}
+
+.button {
+    margin-top: 150px;
+    height: 45px;
+    width: 150px;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.identityContainer {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.credentials {
+    margin-left: 20px;
+    width: 80%;
+    height: 45px;
+    display: flex;
+}
+
+.RadioButton {
+    font-size: 1.8rem;
+    align-content: start;
+}
+
+.Label {
+    width: 40%;
+    font-size: 1.9rem;
+}
+
+.titikdua {
+    font-size: 1.9rem;
+    margin: 0;
+}
+
+.TB {
+    width: 60%;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 1.5rem;
+}
+
+.errortext {
+    width: 100%;
+    font-size: 1.3rem;
+}
