@@ -138,5 +138,28 @@ namespace RAiso.Handler
                 Payload = null
             };
         }
+
+        public static Response<List<Cart>> GetAllItemByUserId(int userId)
+        {
+           List<Cart> temp = CartRepository.GetAllItemByUserId(userId);
+            if (!temp.Any() || temp == null)
+            {
+                return new Response<List<Cart>>
+                {
+                    IsSuccess = false,
+                    Message = "No Items Available",
+                    Payload = null
+                };
+            }
+            else
+            {
+                return new Response<List<Cart>>
+                {
+                    IsSuccess = true,
+                    Message = "Showing Available Items",
+                    Payload = temp
+                };
+            }
+        }
     }
 }

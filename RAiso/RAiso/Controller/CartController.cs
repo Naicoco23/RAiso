@@ -67,5 +67,10 @@ namespace RAiso.Controller
         {
             return CartHandler.CheckOutItem(userId);
         }
+
+        public static Response<List<Cart>> GetAllItemByUserId(int userId)
+        {
+            return CartHandler.GetAllItemByUserId(userId);
+        }
     }
 }

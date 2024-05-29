@@ -33,7 +33,7 @@
                 </div>
                 <div class="credentials">
                     <asp:Label ID="Label5" CssClass="Label" runat="server" Text="Password"></asp:Label><p class="titikdua">:</p>
-                    <asp:TextBox ID="TBPassword" CssClass="TB" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="TBPassword" CssClass="TB" runat="server"></asp:TextBox>
                 </div>
                 <div class="credentials">
                     <asp:Label ID="Label6" CssClass="Label" runat="server" Text="Phone Number"></asp:Label><p class="titikdua">:</p>

@@ -106,8 +106,14 @@ namespace RAiso.View
         {
             MsUser curr = Session["User"] as MsUser;
             int userId = curr.UserID;
-            Response<RAiso.Models.Cart> toDelete = CartController.CheckOutItem(userId);
-            // Ini juga diisi AddToTransactionHeader
+
+            // Ini diisi AddToTransactionHeader
+            Response<TransactionHeader> th = TransactionHeaderController.CreateTransactionHeader(userId);
+            int transId = th.Payload.TransactionID;
+            // disini diisi GetQuantityById sebelum diapus
+            Response <List<RAiso.Models.Cart>> response = CartController.GetAllItemByUserId(userId);
+            TransactionDetailController.SetTransactionDetailQty(response, transId);
+            CartController.CheckOutItem(userId);
             RefreshList(userId);
         }
     }

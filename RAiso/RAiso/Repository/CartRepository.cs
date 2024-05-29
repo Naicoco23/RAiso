@@ -57,5 +57,10 @@ namespace RAiso.Repository
             }
             db.SaveChanges();
         }
+
+        public static List<Cart> GetAllItemByUserId(int userId)
+        {
+            return (from x in db.Carts where x.UserID == userId select x).ToList();
+        }
     }
 }

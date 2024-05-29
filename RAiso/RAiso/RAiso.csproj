@@ -107,14 +107,18 @@
     <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
     <Content Include="View\StationeryDetails.aspx" />
+    <Content Include="View\TransactionDetail.aspx" />
     <Content Include="View\UpdateCart.aspx" />
     <Content Include="View\UpdateStationery.aspx" />
+    <Content Include="View\Transaction.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\CartController.cs" />
     <Compile Include="Controller\MsStationeryController.cs" />
     <Compile Include="Controller\MsUserController.cs" />
+    <Compile Include="Controller\TransactionDetailController.cs" />
+    <Compile Include="Controller\TransactionHeaderController.cs" />
     <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\MsStationeryFactory.cs" />
     <Compile Include="Factory\MsUserFactory.cs" />
@@ -123,6 +127,8 @@
     <Compile Include="Handler\CartHandler.cs" />
     <Compile Include="Handler\MsStationeryHandler.cs" />
     <Compile Include="Handler\MsUserHandler.cs" />
+    <Compile Include="Handler\TransactionDetailHandler.cs" />
+    <Compile Include="Handler\TransactionHeaderHandler.cs" />
     <Compile Include="Layout\Navbar.Master.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -166,6 +172,8 @@
     <Compile Include="Repository\DatabaseSingleton.cs" />
     <Compile Include="Repository\MsStationeryRepository.cs" />
     <Compile Include="Repository\MsUserRepository.cs" />
+    <Compile Include="Repository\TransactionDetailRepository.cs" />
+    <Compile Include="Repository\TransactionHeaderRepository.cs" />
     <Compile Include="View\AddStationery.aspx.cs">
       <DependentUpon>AddStationery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,6 +223,13 @@
     <Compile Include="View\StationeryDetails.aspx.designer.cs">
       <DependentUpon>StationeryDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\TransactionDetail.aspx.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\TransactionDetail.aspx.designer.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\UpdateCart.aspx.cs">
       <DependentUpon>UpdateCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -228,6 +243,13 @@
     </Compile>
     <Compile Include="View\UpdateStationery.aspx.designer.cs">
       <DependentUpon>UpdateStationery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Transaction.aspx.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Transaction.aspx.designer.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -247,7 +269,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Report\" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
