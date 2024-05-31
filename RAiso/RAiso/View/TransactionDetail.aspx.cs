@@ -48,28 +48,7 @@ namespace RAiso.View
                 }
             }
         }
-        //public void RefreshList()
-        //{
-        //    string id = Request.QueryString["TransactionId"];
-
-        //    Response<List<RAiso.Models.TransactionDetail>> response = TransactionDetailController.GetAllTransactionDetailById();
-        //    if (!response.IsSuccess == true || !response.Payload.Any())
-        //    {
-
-        //        lblAlert.Text = response.Message;
-        //        lblAlert.Visible = true;
-        //        lblAlert.ForeColor = System.Drawing.Color.Red;
-        //    }
-        //    else
-        //    {
-        //        lblAlert.Text = response.Message;
-        //        lblAlert.Visible = true;
-        //        lblAlert.ForeColor = System.Drawing.Color.Green;
-        //    }
-        //    Repeater.DataSource = response.Payload;
-        //    Repeater.DataBind();
-        //}
-
+      
         public void RefreshList()
         {
             string id = Request.QueryString["TransactionId"];
