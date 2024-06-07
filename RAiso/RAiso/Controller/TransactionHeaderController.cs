@@ -15,6 +15,11 @@ namespace RAiso.Controller
             return TransactionHeaderHandler.GetAllTransactionData();
         }
 
+        public static Response<List<TransactionHeader>> GetAllTransactionById(int userId)
+        {
+            return TransactionHeaderHandler.GetAllTransactionDataByID(userId);
+        }
+
         public static Response<TransactionHeader> CreateTransactionHeader(int Id)
         {
             return TransactionHeaderHandler.CreateTransactionHeader(Id);

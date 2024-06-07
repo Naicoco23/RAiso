@@ -94,7 +94,7 @@ namespace RAiso.Layout
 
         protected void TransactionReport_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/View/Report.aspx");
         }
     }
 }

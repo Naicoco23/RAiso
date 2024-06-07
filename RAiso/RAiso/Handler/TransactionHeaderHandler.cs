@@ -34,6 +34,30 @@ namespace RAiso.Handler
 
         }
 
+        public static Response<List<TransactionHeader>> GetAllTransactionDataByID(int userId)
+        {
+            List<TransactionHeader> th = TransactionHeaderRepository.GetAllTransactionByUserId(userId);
+            if (th == null || !th.Any())
+            {
+                return new Response<List<TransactionHeader>>()
+                {
+                    IsSuccess = false,
+                    Message = "No Transaction Available",
+                    Payload = null
+                };
+            }
+            else
+            {
+                return new Response<List<TransactionHeader>>()
+                {
+                    IsSuccess = true,
+                    Message = "Showing All Available Transaction",
+                    Payload = th
+                };
+            }
+
+        }
+
         public static int GetTransactionId()
         {
             TransactionHeader temp = TransactionHeaderRepository.GetLastTransaction();

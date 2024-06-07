@@ -13,9 +13,9 @@ namespace RAiso.View
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        public void RefreshList()
+        public void RefreshList(int userId)
         {
-            Response<List<TransactionHeader>> response = TransactionHeaderController.GetAllTransaction();
+            Response<List<TransactionHeader>> response = TransactionHeaderController.GetAllTransactionById(userId);
             if (response.IsSuccess == true || response.Payload.Any())
             {
                 lblAlert.Text = response.Message;
@@ -63,7 +63,7 @@ namespace RAiso.View
                 if (Session["UserId"] != null && int.TryParse(Session["UserId"].ToString(), out int userId))
                 {
 
-                    RefreshList();
+                    RefreshList(userId);
                 }
             }
 

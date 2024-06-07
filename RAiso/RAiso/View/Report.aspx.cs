@@ -16,34 +16,68 @@ namespace RAiso.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            if (Session["User"] == null && Request.Cookies["UserCookie"] != null)
+            {
+                String cookie = Request.Cookies["UserCookie"].Value;
+                Response<MsUser> response = MsUserController.LogInWithCookie(cookie);
+                if (response.IsSuccess == false)
+                {
+                    Response.Cookies["UserCookie"].Expires = DateTime.Now.AddDays(-1);
+                }
+                Session["User"] = response.Payload;
+            }
+            if (Session["User"] != null)
+            {
+                MsUser curr = Session["User"] as MsUser;
+                String role = curr.UserRole;
+                if (role.Equals("Admin") == false)
+                {
+                    Response.Redirect("~/View/Home.aspx");
+                }
+            }
+            else
+            {
+                Response.Redirect("~/View/Home.aspx");
+            }
+
             CrystalReport3 report = new CrystalReport3();
             CrystalReportViewer1.ReportSource = report;
             Response<List<TransactionHeader>> temp = TransactionHeaderController.GetAllTransaction();
-            DataSet1 data = getData(temp.Payload);
+            MilDataSet data = getData(temp.Payload);
             report.SetDataSource(data);
         }
 
-        private DataSet1 getData(List<TransactionHeader> TransactionHeaders)
+        private MilDataSet getData(List<TransactionHeader> TransactionHeaders)
         {
-            DataSet1 data = new DataSet1();
+            MilDataSet data = new MilDataSet();
             var headerTable = data.TransactionHeaders;
             var detailTable = data.TransactionDetails;
-            var stationeryTable = data.MsStationeries;
+
             foreach (TransactionHeader t in TransactionHeaders)
             {
                 var hrow = headerTable.NewRow();
+
                 hrow["TransactionID"] = t.TransactionID;
                 hrow["UserID"] = t.UserID;
                 hrow["TransactionDate"] = t.TransactionDate;
-                headerTable.Rows.Add(hrow);
+                decimal grand = 0;
+
 
                 foreach(TransactionDetail detail in t.TransactionDetails)
                 {
+                    Response<MsStationery> stat = MsStationeryController.GetStationeryById(detail.StationeryID);
                     var drow = detailTable.NewRow();
                     drow["TransactionID"] = detail.TransactionID;
-                    drow["StationeryID"] = detail.StationeryID;
+                    drow["StationeryName"] = stat.Payload.StationeryName;
                     drow["Quantity"] = detail.Quantity;
+                    drow["StationeryPrice"] = stat.Payload.StationeryPrice;
+                    drow["SubTotal"] = detail.Quantity * stat.Payload.StationeryPrice;
+                    grand+= detail.Quantity * stat.Payload.StationeryPrice;
+                    detailTable.Rows.Add(drow);
                 }
+                hrow["GrandTotal"] = grand;
+                headerTable.Rows.Add(hrow);
             }
             return data;
         }

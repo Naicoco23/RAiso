@@ -1279,10 +1279,10 @@
     <Compile Include="Controller\MsUserController.cs" />
     <Compile Include="Controller\TransactionDetailController.cs" />
     <Compile Include="Controller\TransactionHeaderController.cs" />
-    <Compile Include="Dataset\DataSet1.Designer.cs">
+    <Compile Include="Dataset\MilDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <DependentUpon>MilDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\MsStationeryFactory.cs" />
@@ -1440,16 +1440,16 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
-    <Content Include="Dataset\DataSet1.xsc">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+    <Content Include="Dataset\MilDataSet.xsc">
+      <DependentUpon>MilDataSet.xsd</DependentUpon>
     </Content>
-    <None Include="Dataset\DataSet1.xsd">
+    <None Include="Dataset\MilDataSet.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <LastGenOutput>MilDataSet.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="Dataset\DataSet1.xss">
-      <DependentUpon>DataSet1.xsd</DependentUpon>
+    <Content Include="Dataset\MilDataSet.xss">
+      <DependentUpon>MilDataSet.xsd</DependentUpon>
     </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -1463,7 +1463,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Report\CrystalReport3.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
