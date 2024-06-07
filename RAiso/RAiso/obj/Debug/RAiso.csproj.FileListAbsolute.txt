@@ -1,332 +1,162 @@
-D:\PSD\RAiso\RAiso\bin\RAiso.dll.config
-D:\PSD\RAiso\RAiso\bin\RAiso.dll
-D:\PSD\RAiso\RAiso\bin\RAiso.pdb
-D:\PSD\RAiso\RAiso\bin\roslyn\csc.exe
-D:\PSD\RAiso\RAiso\bin\roslyn\csc.exe.config
-D:\PSD\RAiso\RAiso\bin\roslyn\csc.rsp
-D:\PSD\RAiso\RAiso\bin\roslyn\csi.exe
-D:\PSD\RAiso\RAiso\bin\roslyn\csi.exe.config
-D:\PSD\RAiso\RAiso\bin\roslyn\csi.rsp
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\PSD\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.AppContext.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Console.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\PSD\RAiso\RAiso\bin\roslyn\vbc.exe
-D:\PSD\RAiso\RAiso\bin\roslyn\vbc.exe.config
-D:\PSD\RAiso\RAiso\bin\roslyn\vbc.rsp
-D:\PSD\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
-D:\PSD\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
-D:\PSD\RAiso\RAiso\bin\EntityFramework.dll
-D:\PSD\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
-D:\PSD\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\PSD\RAiso\RAiso\bin\EntityFramework.xml
-D:\PSD\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
-D:\PSD\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\PSD\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
-D:\PSD\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
-D:\PSD\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
-D:\PSD\RAiso\RAiso\obj\Debug\RAiso.dll
-D:\PSD\RAiso\RAiso\obj\Debug\RAiso.pdb
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\RAiso.dll.config
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\RAiso.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\RAiso.pdb
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csc.exe
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csc.exe.config
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csc.rsp
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csi.exe
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csi.exe.config
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csi.rsp
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.AppContext.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Console.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe.config
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\vbc.rsp
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.xml
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CopyComplete
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.dll
-C:\Users\Nico\OneDrive - Bina Nusantara\Documents\Code\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.pdb
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\RAiso.dll.config
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\RAiso.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\RAiso.pdb
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\csc.exe
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\csc.exe.config
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\csc.rsp
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\csi.exe
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\csi.exe.config
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\csi.rsp
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.AppContext.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Console.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe.config
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\vbc.rsp
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\EntityFramework.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\EntityFramework.xml
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\obj\Debug\RAiso.dll
-D:\Coding\Projek PSDLecture\RAiso\RAiso\RAiso\obj\Debug\RAiso.pdb
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\RAiso.dll.config
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\RAiso.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\RAiso.pdb
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\csc.exe
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\csc.exe.config
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\csc.rsp
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\csi.exe
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\csi.exe.config
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\csi.rsp
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.AppContext.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Console.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe.config
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\vbc.rsp
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\EntityFramework.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\EntityFramework.xml
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\obj\Debug\RAiso.dll
-C:\Users\dello\OneDrive - Bina Nusantara\KULIAH\SEMESTER 4\(LAB) Pattern Software Design\RAIso\RAiso\RAiso\RAiso\obj\Debug\RAiso.pdb
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\RAiso.dll.config
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\RAiso.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\RAiso.pdb
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csc.exe
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csc.exe.config
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csc.rsp
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csi.exe
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csi.exe.config
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\csi.rsp
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.AppContext.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Console.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\vbc.exe.config
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\vbc.rsp
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.Web.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\stdole.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.xml
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.dll
-C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\RAiso\obj\Debug\RAiso.pdb
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\RAiso.dll.config
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\RAiso.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\RAiso.pdb
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\csc.exe
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\csc.exe.config
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\csc.rsp
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\csi.exe
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\csi.exe.config
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\csi.rsp
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.AppContext.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Console.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\vbc.exe
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\vbc.exe.config
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\vbc.rsp
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\EntityFramework.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\EntityFramework.xml
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\obj\Debug\RAiso.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\obj\Debug\RAiso.pdb
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.Web.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Melvin\Documents\GitHub\RAiso\RAiso\bin\stdole.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\RAiso.dll.config
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\RAiso.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\RAiso.pdb
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\csc.exe
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\csc.exe.config
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\csc.rsp
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\csi.exe
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\csi.exe.config
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\csi.rsp
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.AppContext.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Console.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.IO.Compression.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Net.Http.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.ValueTuple.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\vbc.exe
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\vbc.exe.config
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\vbc.rsp
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.Shared.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.Web.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\EntityFramework.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\EntityFramework.SqlServer.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\stdole.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\EntityFramework.xml
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\EntityFramework.SqlServer.xml
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\obj\Debug\RAiso.csproj.AssemblyReference.cache
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\obj\Debug\RAiso.csproj.CoreCompileInputs.cache
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\obj\Debug\RAiso.csproj.Up2Date
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\obj\Debug\RAiso.dll
+C:\Users\Melvin\Documents\GitHub\RAisos1\RAiso\RAiso\obj\Debug\RAiso.pdb

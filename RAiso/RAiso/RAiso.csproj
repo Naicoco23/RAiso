@@ -1,4 +1,5 @@
 ﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D9F2BF3A-455A-4A56-82A0-890D2B6727A1}</ProjectGuid>
+    <ProjectGuid>{563D2811-7BB9-4566-A4AE-6424CCA0888E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -16,7 +17,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44352</IISExpressSSLPort>
+    <IISExpressSSLPort>44384</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -43,12 +44,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win64_x64\dotnet\CrystalDecisions.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win64_x64\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Runtime.Serialization" />
@@ -1210,15 +1221,32 @@
     <Content Include="aspnet_client\system_web\4_0_30319\crystalreportviewers13\prompting\js\promptengine_strings_zh_TW.js" />
     <Content Include="aspnet_client\system_web\4_0_30319\crystalreportviewers13\urlreporting\activexviewer.js" />
     <Content Include="aspnet_client\system_web\4_0_30319\crystalreportviewers13\urlreporting\appletviewer.js" />
-    <Content Include="Models\RAiso.Context.tt">
+    <Content Include="Assets\AddStationeryBG.jpg" />
+    <Content Include="Assets\Carousel1.JPG" />
+    <Content Include="Assets\Carousel2.JPG" />
+    <Content Include="Assets\Image1.jpg" />
+    <Content Include="Assets\Image1Blur.JPG" />
+    <Content Include="Assets\Image2.jpg" />
+    <Content Include="Assets\Image3.JPG" />
+    <Content Include="Assets\Left.png" />
+    <Content Include="Assets\Logo.JPG" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Logo1.JPG" />
+    <Content Include="Assets\LogoNew.png" />
+    <Content Include="Assets\LogoNew1.png" />
+    <Content Include="Assets\ProfilePicture.JPG" />
+    <Content Include="Assets\Right.png" />
+    <Content Include="Assets\Stationery.JPG" />
+    <Content Include="Assets\StationeryHome.jpg" />
+    <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>RAiso.Context.cs</LastGenOutput>
-      <DependentUpon>RAiso.edmx</DependentUpon>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\RAiso.tt">
+    <Content Include="Models\Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>RAiso.edmx</DependentUpon>
-      <LastGenOutput>RAiso.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="Script\Home.js" />
     <Content Include="Styles\AddStationery.css" />
@@ -1237,11 +1265,12 @@
     <Content Include="View\Login.aspx" />
     <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
+    <Content Include="View\Report.aspx" />
     <Content Include="View\StationeryDetails.aspx" />
+    <Content Include="View\Transaction.aspx" />
     <Content Include="View\TransactionDetail.aspx" />
     <Content Include="View\UpdateCart.aspx" />
     <Content Include="View\UpdateStationery.aspx" />
-    <Content Include="View\Transaction.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1250,10 +1279,10 @@
     <Compile Include="Controller\MsUserController.cs" />
     <Compile Include="Controller\TransactionDetailController.cs" />
     <Compile Include="Controller\TransactionHeaderController.cs" />
-    <Compile Include="DataSet\DataSet.Designer.cs">
+    <Compile Include="Dataset\DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet.xsd</DependentUpon>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\MsStationeryFactory.cs" />
@@ -1273,37 +1302,43 @@
       <DependentUpon>Navbar.Master</DependentUpon>
     </Compile>
     <Compile Include="Models\Cart.cs">
-      <DependentUpon>RAiso.tt</DependentUpon>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\MsStationery.cs">
-      <DependentUpon>RAiso.tt</DependentUpon>
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MsUser.cs">
-      <DependentUpon>RAiso.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\RAiso.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RAiso.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\RAiso.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RAiso.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\RAiso.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RAiso.edmx</DependentUpon>
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TransactionDetail.cs">
-      <DependentUpon>RAiso.tt</DependentUpon>
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TransactionHeader.cs">
-      <DependentUpon>RAiso.tt</DependentUpon>
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Modules\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\CrystalReport3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Repository\CartRepository.cs" />
     <Compile Include="Repository\DatabaseSingleton.cs" />
     <Compile Include="Repository\MsStationeryRepository.cs" />
@@ -1352,12 +1387,26 @@
     <Compile Include="View\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\StationeryDetails.aspx.cs">
       <DependentUpon>StationeryDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="View\StationeryDetails.aspx.designer.cs">
       <DependentUpon>StationeryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Transaction.aspx.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Transaction.aspx.designer.cs">
+      <DependentUpon>Transaction.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\TransactionDetail.aspx.cs">
       <DependentUpon>TransactionDetail.aspx</DependentUpon>
@@ -1380,33 +1429,27 @@
     <Compile Include="View\UpdateStationery.aspx.designer.cs">
       <DependentUpon>UpdateStationery.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\Transaction.aspx.cs">
-      <DependentUpon>Transaction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View\Transaction.aspx.designer.cs">
-      <DependentUpon>Transaction.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Models\RAiso.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>RAiso.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\RAiso.edmx.diagram">
-      <DependentUpon>RAiso.edmx</DependentUpon>
-    </Content>
+    <Content Include="Assets\Jett.glb" />
     <Content Include="Layout\Navbar.Master" />
-    <Content Include="DataSet\DataSet.xsc">
-      <DependentUpon>DataSet.xsd</DependentUpon>
+    <EntityDeploy Include="Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
-    <None Include="DataSet\DataSet.xsd">
+    <Content Include="Dataset\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\DataSet1.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="DataSet\DataSet.xss">
-      <DependentUpon>DataSet.xsd</DependentUpon>
+    <Content Include="Dataset\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -1417,10 +1460,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Report\" />
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Report\CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -1435,9 +1483,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50645</DevelopmentServerPort>
+          <DevelopmentServerPort>62906</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44352/</IISUrl>
+          <IISUrl>https://localhost:44384/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -1452,7 +1500,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
   </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
